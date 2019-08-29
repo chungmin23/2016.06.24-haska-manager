@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;}
+    .title{
+        font-family: "돋움",Arial, Dotum, Helevetica,AppleGothic,sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        position: absolute;
+        top: 70px;
+        left: 30px;}
+    .title span{
+        font-size: 20px;
+    }
+    #menu1{
+        font-family: "Trebuchet MS",sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: bold;
+        letter-spacing: 1.4px;}
+    #menu1 .item{
+        position: absolute;
+    }
+    .juhun1{
+        top: 350px;
+        left: 80px;
+    }
+    .juhun2{
+        top: 330px;
+        left: 280px;
+    }
+    .juhun3{
+        top: 250px;
+        left: 460px;
+    }
+    .juhun4{
+        top: 90px;
+        left: 570px;
+    }
+    .item img.circle{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 50px;
+        height: 50px;
+        opacity: 0.1;
+    }
+    a.icon{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 50px;
+        height: 50px;
+        background: #ccc;
+        border-radius: 25px;
+    }
+    .juhun1 a.icon{
+        background: #FFFF00;}
+    .juhun2 a.icon{
+        background: #E9DE16;}
+    .juhun3 a.icon{
+        background: #FF9900;}
+    .juhun4 a.icon{
+        background: #FF6600;}
+    .item h2{
+        color: #555;
+        font-size: 20px;
+        position: absolute;
+        top: 10px;
+        left: 40px;
+        text-shadow: 1px 1px 1px #fff;
+        text-transform: uppercase;
+    }
+    .item ul{
+        list-style: none;
+        position: absolute;
+        top:50px;
+        left: 50px;
+        display: none;
+    }
+    .item ul li a{
+        font-size: 15px;
+        text-decoration: none;
+        color: #555;
+        text-shadow: 1px 1px 1px #fff;
+        padding: 2px;
+        float:left;
+        clear: both;
+    }
+    .item ul li a:hover{
+        color:#fff;
+        text-shadow: 1px 1px 1px #555;
+    }
+    .item h2.active{
+        color: #fff;
+        text-shadow: 1px 0px 1px #555;
+    }
+    
+}

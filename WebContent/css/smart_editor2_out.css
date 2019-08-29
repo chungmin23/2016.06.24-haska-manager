@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+div.se2_outputarea {clear:both; text-align:justify;}
+
+.se2_outputarea, .se2_outputarea th, .se2_outputarea td { margin: 0; padding: 0; color: #666; font-size: 11pt; font-family:'나눔고딕','NanumGothic', '맑은 고딕','malgun gothic','Nanum Gothic','돋움', Dotum, '굴림', Gulim, Verdana, sans-serif; line-height: 1.5; }
+
+.se2_outputarea table { border-collapse: separate; }
+
+.se2_outputarea p { margin: 0; padding: 0; }
+
+.se2_outputarea a:hover { text-decoration: underline; }
+.se2_outputarea a:link { color:#289dcc; }
+
+.se2_outputarea ol { margin: 0px; padding: 0; }
+.se2_outputarea ol li { margin: 0; list-style-type:decimal; padding: 0; }
+.se2_outputarea ul { margin: 0px; padding: 0; }
+.se2_outputarea ul li { margin: 0; list-style-type: disc; padding: 0; }
+.se2_outputarea ul ul li { list-style-type: circle; }
+.se2_outputarea ul ul ul li { list-style-type: square; }
+
+.se2_outputarea img, .se2_outputarea fieldset { border: 0; }

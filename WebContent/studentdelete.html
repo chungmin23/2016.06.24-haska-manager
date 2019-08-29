@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.blueberry.js"></script>
+<link rel="stylesheet" href="css/blueberry.css" />
+<style type="text/css">
+ .del1{width:150px; }
+ ul{list-style: none; }
+.blueberry { max-width: 960px; }
+ h1{display: inline-block;}
+</style>
+</head>
+<body>
+<h1>학생삭제</h1>
+<form action="studentDelete" method="post">
+<fieldset>
+    <legend>학생삭제</legend>
+<ul>
+     <li><input type="text" name="irum" required="required" placeholder="이름입력"></li>
+     <li><input type="image" src="img/delete.jpg" class="del1"></li>
+</ul>
+</fieldset>
+</form>
+ <div class="blueberry">
+      <ul class="slides">
+        <li><a href="index.jsp"><img src="img/winter/winter1.jpg" /></a></li>
+        <li><a href="index.jsp"><img src="img/winter/winter2.jpg" /></a></li>
+        <li><a href="index.jsp"><img src="img/winter/winter3.jpg" /></a></li>
+        <li><a href="index.jsp"><img src="img/winter/winter4.jpg" /></a></li>
+      </ul>
+    </div>
+    <script>
+$(window).load(function() {
+	$('.blueberry').blueberry();
+});
+</script>
+</body>
+</html>

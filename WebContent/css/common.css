@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+/* 관리자 모드, 일반페이지 공통 CSS */
+
+html, body, div, span, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, address, pre, cite, form, fieldset, input, textarea, select, table, th, td, form { 	margin:0; padding:0; }
+
+::selection {background:#F60; color:#FFF; text-shadow:none;}
+::-moz-selection {background:#F60; color:#FFF; text-shadow:none;}
+::-webkit-selection {background:#F60; color: #FFF; text-shadow: none;}
+
+body { color:#666; font-size:12px; line-height:1.5; font-family:'나눔고딕','NanumGothic', '맑은 고딕','malgun gothic','Nanum Gothic','돋움', Dotum, '굴림', Gulim, Verdana, sans-serif; }
+
+input, textarea, select {font-family:'나눔고딕','NanumGothic', '맑은 고딕','malgun gothic','Nanum Gothic','돋움', Dotum, '굴림', Gulim, Verdana, sans-serif;}
+
+h1, h2, h3, h4, h5, h6 {  font-size:100%; font-weight:normal; } 
+
+fieldset, img, abbr,acronym { border:0 none; } 
+
+ol, ul { list-style:none; }
+
+a { text-decoration:none; color:#289dcc; }
+
+table { border-collapse: collapse; border-spacing:0; border:0 none; }
+th, td { text-align:left; font-weight: normal; border:0; }
+
+label.pointer { cursor:pointer; }
+
+.hidden { display:none; }
+.cursor_pointer { cursor:pointer; }
+.center { text-align:center; }
+.bold { font-weight:bold; }
+
+legend, caption { overflow:hidden; width:0px; height:0px; font-size:0px; line-height:0px; } /* hidden */
+
+iframe.hidden_iframe { width:0px; height:0px; margin:0px; padding:0px; border:0px; }
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* 기본 버튼 스타일 */
+	button { cursor:pointer; }
+	button.but_bg_162 { margin:3px; padding:0; text-align:center; width:162px; height:27px; border:1px solid #AEAEAE; border-radius:3px; background:URL('../img/but_gray_bg.png') left bottom repeat-x; font-size:12px; }
+	button.but_bg_120 { margin:3px; padding:0; text-align:center; width:120px; height:27px; border:1px solid #AEAEAE; border-radius:3px; background:URL('../img/but_gray_bg.png') left bottom repeat-x; font-size:12px; }
+	button.but_bg_95 { margin:3px; padding:0; text-align:center; width:95px; height:27px; border:1px solid #AEAEAE; border-radius:3px; background:URL('../img/but_gray_bg.png') left bottom repeat-x; font-size:12px; }
+	button.but_bg_75 { margin:3px; padding:0; text-align:center; width:75px; height:27px; border:1px solid #AEAEAE; border-radius:3px; background:URL('../img/but_gray_bg.png') left bottom repeat-x; font-size:12px; }
+	button.but_bg_56 { margin:3px; padding:0; text-align:center; width:56px; height:27px; border:1px solid #AEAEAE; border-radius:3px; background:URL('../img/but_gray_bg.png') left bottom repeat-x; font-size:12px; }
+	button.but_bg_40 { margin:3px; padding:0; text-align:center; width:40px; height:27px; border:1px solid #AEAEAE; border-radius:3px; background:URL('../img/but_gray_bg.png') left bottom repeat-x; font-size:12px; }
+	button.but_add_18 { margin:0px; padding:0; width:18px; height:18px; vertical-align:middle; border:0px; background:URL('../img/but_add.png') no-repeat; }
+	button.but_122x82 { margin:0px; padding:0; width:122px; height:82px; vertical-align:middle; border:0px; background:URL('../img/but_122x82.jpg') no-repeat; }
+	button.but_122x82_right { float:right; margin:0px; padding:0; width:122px; height:82px; vertical-align:middle; border:0px; background:URL('../img/but_122x82.jpg') no-repeat; }
+	button.but_122x82_right_absolute { position:absolute; right:0px; top:0px; margin:0px; padding:0; width:122px; height:82px; vertical-align:middle; border:0px; background:URL('../img/but_122x82.jpg') no-repeat; }
+	button.but_skyblue { margin:0px; padding:0; text-align:center; height:28px; border:1px solid #9FC3DD; border-radius:2px; background: URL('../img/but_skyblue_bg.png') left bottom repeat-x; font-size:12px; color:#458AC1; }
+	button.but_blue_150x50 { margin:0px; padding:0; text-align:center; width:150px; height:50px; font-size:16px; color:#FFF; font-weight:bold; border-radius:3px; border:1px solid #2383B5; background:#289CCB; }
+	button.but_blue_100x76 { margin:0px; padding:0; text-align:center; width:100px; height:76px; font-size:16px; color:#FFF; font-weight:bold; border-radius:3px; border:1px solid #2383B5; background:#289CCB; }
+	button.but_blue_100x30 { margin:0px; padding:0; text-align:center; width:100px; height:30px; font-size:14px; color:#FFF; font-weight:bold; border-radius:3px; border:1px solid #2383B5; background:#289CCB; }
+	button.but_blue_190x76 { margin:0px; padding:0; text-align:center; width:190px; height:76px; font-size:16px; color:#FFF; font-weight:bold; border-radius:3px; border:1px solid #2383B5; background:#289CCB; }
+	button.but_gray_100x30 { margin:0px; padding:0; text-align:center; width:100px; height:30px; font-size:14px; color:#FFF; font-weight:bold; border-radius:3px; border:1px solid #6B6B6B; background:#7A7A7A; }
+	button.but_gray_150x50 { margin:0px; padding:0; text-align:center; width:150px; height:50px; font-size:16px; color:#FFF; font-weight:bold; border-radius:3px; border:1px solid #6B6B6B; background:#7A7A7A; }
+	button.but_gray_190x76 { margin:0px; padding:0; text-align:center; width:190px; height:76px; font-size:16px; color:#FFF; font-weight:bold; border-radius:3px; border:1px solid #6B6B6B; background:#7A7A7A; }
+	button.but_gray2_100x36 { margin:0px; padding:0; text-align:center; width:100px; height:36px; border:0px; background: URL('../img/but_gray2_100x36.png') no-repeat; font-size:14px; color:#666; font-weight:bold; }
+	button.but_gray2_80x46 { margin:0px; padding:0; text-align:center; width:80px; height:46px; border:0px; background: URL('../img/but_gray2_80x46.png') no-repeat; font-size:12px; color:#121212; font-weight:bold; }
+	button.but_gray2_80x46_right { float:right; margin:0px; padding:0; text-align:center; width:80px; height:46px; border:0px; background: URL('../img/but_gray2_80x46.png') no-repeat; font-size:12px; color:#121212; font-weight:bold; }
+	button.but_gray2_80x46_right_absolute { position:absolute; right:0px; top:0px; margin:0px; padding:0; width:80px; height:46px; border:0px; background: URL('../img/but_gray2_80x46.png') no-repeat; font-size:12px; color:#121212; font-weight:bold; }
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* 페이징 스타일 */
+	span.list_paging1{ font-family:tahoma; margin:2px; padding:0px 7px 0px 7px; height:28px; line-height:28px; font-size:12px; display:inline-block; overflow:hidden; border:1px solid #C8C8C8; background:#F2F2F2; font-weight:bold; color:#777777; cursor:pointer; }
+	span.list_paging2{ font-family:tahoma; margin:2px; padding:0px 7px 0px 7px; height:28px; line-height:28px; font-size:12px; display:inline-block; overflow:hidden; border:1px solid #009BDA; background:#FFFFFF; color:#009BDA; cursor:pointer; }
+	span.list_paging3{ font-family:tahoma; margin:2px; padding:0px 7px 0px 7px; height:28px; line-height:28px; font-size:12px; display:inline-block; overflow:hidden; border:1px solid #E2E2E2; background:#FFFFFF; color:#000000; cursor:pointer; }
+
+	div.paging_design1 { height:30px; text-align:center; border:1px solid #DADADA; background:URL('../img/bg03.jpg'); }
+	div.paging_design1 > span.area { background:#DADADA; height:30px; line-height:30px; display:inline-block; overflow:hidden; }
+	div.paging_design1 > span.area > span { margin-left:1px; font-family:verdana,dotum; padding:0px 10px 0px 10px; height:30px; line-height:30px; font-size:12px; display:inline-block; overflow:hidden; color:#656565; cursor:pointer; vertical-align:top; }
+	div.paging_design1 > span.area > span:first-child { margin-left:0px; }
+	div.paging_design1 > span.area > span.list_paging_n{ background:URL('../img/bg03.jpg'); }
+	div.paging_design1 > span.area > span.list_paging_o{ background:#FFFFFF; }
+	div.paging_design1 > span.area > span > button.paging_but_ll { margin-top:10px; border:0px; width:41px; height:10px; background:URL('../img/paging_design_1_ll.png') no-repeat; }
+	div.paging_design1 > span.area > span > button.paging_but_l { margin-top:10px; border:0px; width:31px; height:10px; background:URL('../img/paging_design_1_l.png') no-repeat; }
+	div.paging_design1 > span.area > span > button.paging_but_r { margin-top:10px; border:0px; width:32px; height:10px; background:URL('../img/paging_design_1_r.png') no-repeat; }
+	div.paging_design1 > span.area > span > button.paging_but_rr { margin-top:10px; border:0px; width:63px; height:10px; background:URL('../img/paging_design_1_rr.png') no-repeat; }
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* 테이블 스타일 */
+	table.design1 { width:100%; background:URL('../img/line_dot1.jpg') left top repeat-x; }
+	table.design1 tr { background:URL('../img/line_dot1.jpg') left bottom repeat-x; }
+	table.design1 tr th { width:120px; padding:12px; vertical-align:top; color:#343434; font-size:14px; line-height:36px; font-weight:bold; }
+	table.design1 tr th.wide { width:170px; padding:12px; vertical-align:top; color:#343434; font-size:14px; line-height:36px; font-weight:bold; }
+	table.design1 tr th span.check_y { display:inline-block; width:19px; height:34px; background:URL('../img/bul04.png') left center no-repeat; vertical-align:middle; }
+	table.design1 tr th span.check_n { display:inline-block; width:19px; height:34px; vertical-align:middle; }
+	table.design1 tr th span.nessesary { display:inline-block; width:19px; padding-top:11px; height:23px; vertical-align:middle; }
+	table.design1 tr td { padding:12px; vertical-align:top; font-size:14px; line-height:36px; }
+	table.design1 tr td input[type=text]{ vertical-align:middle; padding-left:20px; font-size:14px; width:528px; height:34px; line-height:34px; border:1px solid #DADADA; background:#FDFDFD; color:#279DCF; font-weight:bold; }
+	table.design1 tr td input[type=text]:focus { background:#FFF; border:1px solid #3599CB; }
+	table.design1 tr td input[type=text]:blur { background:#FDFDFD; border:1px solid #DADADA; }
+	table.design1 tr td input[type=password]{ vertical-align:middle; padding-left:20px; font-size:14px; width:528px; height:34px; line-height:34px; border:1px solid #DADADA; background:#FDFDFD; color:#279DCF; font-weight:bold; }
+	table.design1 tr td input[type=password]:focus { background:#FFF; border:1px solid #3599CB; }
+	table.design1 tr td input[type=password]:blur { background:#FDFDFD; border:1px solid #DADADA; }
+	table.design1 tr td input[type=file]{ vertical-align:middle; font-size:14px; width:548px; height:34px; line-height:34px;  }
+	table.design1 tr td select { border:1px solid #DADADA; font-size:14px; padding:7px; }
+	table.design1 tr td select.wide { width:548px; }
+	table.design1 tr td select:focus { border:1px solid #3599CB; }
+	table.design1 tr td select:blur { border:1px solid #DADADA; }
+	table.design1 tr td span.tel_slice { float:left; vertical-align:middle; display:inline-block; width:20px; height:36px; line-height:36px; text-align:center; }
+	table.design1 tr td span.bold_000 { font-weight:bold; color:#000; }
+	table.design1 tr td textarea { padding:20px; font-size:14px; line-height:1.5; width:934px; height:300px; border:1px solid #DADADA; background:#FDFDFD; color:#279DCF; }
+	table.design1 tr td textarea:focus { background:#FFF; border:1px solid #3599CB; }
+	table.design1 tr td textarea:blur { background:#FDFDFD; border:1px solid #DADADA; }
+	table.design1 tr td textarea.w718p { width:718px; }
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* 동의 */
+	#agree_check {}
+	#agree_check > span { font-size:16px; font-weight:bold; display:block; text-align:center; margin-bottom:30px; color:#000; background:URL('../img/bg_pattern01.jpg') left center repeat-x; }
+	#agree_check > span > span { background:#FFF; padding:0px 10px 0px 10px; }
+	#agree_check > div.agree_group { overflow:hidden; margin-top:10px; }
+	#agree_check > div.agree_group:nth-child(2) { margin-top:0px; }
+	#agree_check > div.agree_group > span.title { float:left; display:block; padding-left:30px; width:968px; height:42px; line-height:42px; color:#000; border:1px solid #DDD; font-size:14px; font-weight:bold; background:URL('../img/bg01.jpg') repeat-x; }
+	#agree_check > div.agree_group > span.title2 { float:left; display:block; width:332px; height:42px; line-height:42px; text-align:center; color:#000; border-left:1px solid #DDD; border-right:1px solid #DDD; border-bottom:1px solid #DDD; font-size:12px; background:#FFF; cursor:pointer; }
+	#agree_check > div.agree_group > span.title3 { float:left; display:block; width:332px; height:42px; line-height:42px; text-align:center; color:#000; border-right:1px solid #DDD; border-bottom:1px solid #DDD; font-size:12px; background:#F9F9F9; cursor:pointer; }
+	#agree_check > div.agree_group > textarea.content { width:938px; padding:20px 30px 20px 30px; height:150px; color:#333; background:#F9F9F9; border-left:1px solid #DDD; border-right:1px solid #DDD; border-bottom:1px solid #DDD; border-top:0px; }
+	#agree_check > span.check{ margin-top:30px; font-size:15px; color:#FB0D0B; font-weight:bold; display:block; text-align:center; background:URL('../img/bg_pattern01.jpg') left center repeat-x; }

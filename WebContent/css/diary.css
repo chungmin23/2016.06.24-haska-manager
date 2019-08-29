@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+/*  PC 모드 일정 CSS */
+
+#dp_diary_pc_area { position:relative; width:1000px; overflow:hidden; }
+
+	#dp_diary_pc_area label.hidden { position:absolute; overflow:hidden; width:0px; height:0px; font-size:0; line-height:0; } /* hidden */
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+	#dp_diary_pc_area #diary_list { position:relative; margin-bottom:20px; }
+		#dp_diary_pc_area #diary_list #disp_date { text-align:center; margin-bottom:20px; height:50px; line-height:50px; background:URL('../img/bg04.png') repeat-x; vertical-align:middle; }
+			#dp_diary_pc_area #diary_list #disp_date span.total { position:absolute; left:0px; top:0px; display:inline-block; height:45px; line-height:45px; color:#999; background:URL('../img/bg05.png') top right no-repeat #FFF; padding-top:5px; padding-right:10px; }
+			#dp_diary_pc_area #diary_list #disp_date span.icon_explanation { position:absolute; right:0px; top:0px; display:inline-block; height:45px; line-height:45px; color:#9A9A9A; background:URL('../img/bg05.png') top left no-repeat #FFF; padding-top:5px; padding-left:10px; }
+			#dp_diary_pc_area #diary_list #disp_date span.icon_explanation > img { margin-left:14px; }
+			#dp_diary_pc_area #diary_list #disp_date span.icon_explanation > img:first-child { margin-left:0px; }
+			#dp_diary_pc_area #diary_list #disp_date span.total_num { color:#000; font-weight:bold; }
+			#dp_diary_pc_area #diary_list #disp_date span.bg { display:inline-block; width:1px; height:50px; background:URL('../img/bg05.png'); vertical-align:middle; }
+			#dp_diary_pc_area #diary_list #disp_date span.choice_month { display:inline-block; height:50px; line-height:50px; padding:0px 12px 0px 12px; background:#FFF; vertical-align:middle; }
+			#dp_diary_pc_area #diary_list #disp_date span.disp_date { height:50px; line-height:50px; font-family:tahoma; font-size:2em; font-weight:bold; margin:0px 15px 0px 15px; vertical-align:middle; }
+			#dp_diary_pc_area #diary_list #disp_date span > a > img { vertical-align:middle; }
+
+		#dp_diary_pc_area #diary_list #disp_date_array {}
+			#dp_diary_pc_area #diary_list #disp_date_array ul li { display:inline-block; width:130px; height:110px; overflow:hidden; border:1px solid #DDD; margin:0px 1px 1px 0px; padding:5px; }
+/*			#dp_diary_pc_area #diary_list #disp_date_array ul li:nth-child(7n) { margin-right:0px; } */
+			#dp_diary_pc_area #diary_list #disp_date_array ul li.day_of_the_week { height:13px; padding:12px 5px 5px 5px; text-align:center; background:url('../img/bg06.jpg') repeat-x left top; cursor:default;}
+			#dp_diary_pc_area #diary_list #disp_date_array ul li.diary_day_box_today { background:#F4FDF2; }
+			#dp_diary_pc_area #diary_list #disp_date_array ul li.diary_day_box_none { background:#FFFFFF; cursor:default; }
+			#dp_diary_pc_area #diary_list #disp_date_array ul li span { color:#999; font-size:12px; }
+			#dp_diary_pc_area #diary_list #disp_date_array ul li span.diary_day_sun { color:#FB5710; }
+			#dp_diary_pc_area #diary_list #disp_date_array ul li span.diary_day_sat { color:#289ECE; }
+			#dp_diary_pc_area #diary_list #disp_date_array ul li span.icon { display:inline-block; margin-top:5px; }
+			#dp_diary_pc_area #diary_list #disp_date_array ul li span.msg { display:inline-block; width:500px; height:18px; line-height:18px; overflow:hidden; font-size:12px; color:#000; }
+			#dp_diary_pc_area #diary_list #disp_date_array ul li span.msg2 { display:inline-block; width:128px; height:20px; line-height:20px; overflow:hidden; font-size:12px; color:#AAAAAA; }
+			#dp_diary_pc_area #diary_list #disp_date_array ul li span.msg3 { display:inline-block; font-size:12px; color:#CCC; }
+			#dp_diary_pc_area #diary_list #disp_date_array ul li span.msg4 { display:inline-block; font-size:10px; color:#CCC; }
+			#dp_diary_pc_area #diary_list #disp_date_array ul li div.msg1_area { width:130px; height:110px; overflow:hidden; }
+			#dp_diary_pc_area #diary_list #disp_date_array ul li div.msg2_area { margin-top:5px; }
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+	#dp_diary_pc_area #diary_view { margin-bottom:20px; }
+		#dp_diary_pc_area #diary_view div.display_title { text-align:center; height:50px; line-height:50px; background:URL('../img/bg04.png') repeat-x; vertical-align:middle; overflow:hidden; }
+		#dp_diary_pc_area #diary_view div.display_title span.bg { display:inline-block; width:1px; height:50px; background:URL('../img/bg05.png'); vertical-align:middle; }
+		#dp_diary_pc_area #diary_view div.display_title span.bg2 { float:left; display:inline-block; width:1px; height:50px; background:URL('../img/bg05.png'); vertical-align:middle; }
+		#dp_diary_pc_area #diary_view div.display_title span.bg3 { float:right; display:inline-block; width:1px; height:50px; background:URL('../img/bg05.png'); vertical-align:middle; }
+		#dp_diary_pc_area #diary_view div.display_title span.choice_month { display:inline-block; height:50px; line-height:50px; padding:0px 12px 0px 12px; background:#FFF; vertical-align:middle; }
+		#dp_diary_pc_area #diary_view div.display_title span.disp_date { height:50px; line-height:50px; font-size:2em; font-weight:bold; margin:0px 10px 0px 10px; vertical-align:middle; }
+		#dp_diary_pc_area #diary_view div.display_title span.disp_date2 { vertical-align:middle; }
+		#dp_diary_pc_area #diary_view div.display_title span > a > img { vertical-align:middle; }
+		#dp_diary_pc_area #diary_view div.lunar_n_total { position:relative; font-size:12px; color:#999999; text-align:center; margin-bottom:15px; }
+		#dp_diary_pc_area #diary_view div.lunar_n_total span.total_msg { position:absolute; right:0px; top:0px; }
+		#dp_diary_pc_area #diary_view div.lunar_n_total span.num { color:#000; font-weight:bold; }
+		#dp_diary_pc_area #diary_view ul li { clear:both; overflow:hidden; padding:10px 0px 10px 0px; }
+		#dp_diary_pc_area #diary_view ul li div.title_line { height:42px; border:1px solid #DDD; background:URL('../img/bg07.jpg'); overflow:hidden; } 
+		#dp_diary_pc_area #diary_view ul li div.title_line span.no { float:left; display:inline-block; width:60px; height:42px; line-height:42px; text-align:center; font-family:verdana; font-size:14px; color:#676767; font-weight:bold; border-right:1px solid #DDD; cursor:pointer; }
+		#dp_diary_pc_area #diary_view ul li div.title_line span.title { float:left; margin-left:30px; display:inline-block; width:856px; height:42px; line-height:42px; font-size:14px; font-weight:bold; color:#299ECA; cursor:pointer; }
+		#dp_diary_pc_area #diary_view ul li div.title_line span.toggle { float:right; display:inline-block; width:50px; height:42px; line-height:42px; text-align:center; font-family:'Arial Black'; font-size:20px; color:#999; font-weight:bold; border-left:1px solid #DDD; cursor:pointer; }
+		#dp_diary_pc_area #diary_view ul li div.write_info { border-left:1px solid #DDD; border-right:1px solid #DDD; border-bottom:1px solid #DDD; background:#F4F4F4; overflow:hidden; }
+		#dp_diary_pc_area #diary_view ul li div.write_info span.icon_area { float:left; display:inline-block; width:60px; height:42px; line-height:42px; }
+		#dp_diary_pc_area #diary_view ul li div.write_info div.write_info_value { float:left; border-left:1px solid #DDD; padding:18px 30px 18px 30px; width:877px; color:#333; font-size:14px; }
+		#dp_diary_pc_area #diary_view ul li div.write_info div.write_info_value span.nick { display:block; position:relative; }
+		#dp_diary_pc_area #diary_view ul li div.write_info div.write_info_value span.nick img.icon_nick { position:absolute; left:-66px; top:3px; }
+		#dp_diary_pc_area #diary_view ul li div.write_info div.write_info_value span.date { display:block; position:relative; color:#FB5911; font-weight:bold; }
+		#dp_diary_pc_area #diary_view ul li div.write_info div.write_info_value span.date img.icon_date { position:absolute; left:-66px; top:3px; }
+		#dp_diary_pc_area #diary_view ul li div.write_info div.write_info_value span.time { display:block; position:relative; color:#FB5911; font-weight:bold; }
+		#dp_diary_pc_area #diary_view ul li div.write_info div.write_info_value span.time img.icon_time { position:absolute; left:-66px; top:3px; }
+		#dp_diary_pc_area #diary_view ul li div.content_area { border-left:1px solid #DDD; border-right:1px solid #DDD; border-bottom:1px solid #DDD; background:#F9F9F9; overflow:hidden; }
+		#dp_diary_pc_area #diary_view ul li div.content_area span.icon_area { float:left; display:inline-block; width:60px; height:42px; line-height:42px; }
+		#dp_diary_pc_area #diary_view ul li div.content_area div.content { position:relative; float:left; border-left:1px solid #DDD; padding:18px 30px 18px 30px; width:877px; color:#333; font-size:14px; }
+		#dp_diary_pc_area #diary_view ul li div.content_area div.content img.icon_content { position:absolute; left:-36px; top:23px; }
+		#dp_diary_pc_area #diary_view ul li div.content_area div.content div.mod_del { height:50px; }
+		#dp_diary_pc_area #diary_view ul li div.content_area div.content div.mod_del button.mod { position:absolute; left:30px; bottom:0px; border:0px; width:100px; height:43px; background:URL('../img/but_diary_mod.jpg'); }
+		#dp_diary_pc_area #diary_view ul li div.content_area div.content div.mod_del button.del { position:absolute; left:130px; bottom:0px; border:0px; width:99px; height:43px; background:URL('../img/but_diary_del.jpg'); }
+
+		#dp_diary_pc_area #diary_view ul li.mod { display:none; }
+		#dp_diary_pc_area #diary_view ul li.mod span.nessesary_info { display:block; margin-bottom:15px; color:#999; vertical-align:middle; }
+/*		#dp_diary_pc_area #diary_view ul li.mod span.nessesary_info > img:nth-child(1) { margin-left:5px; margin-right:5px; } */
+		#dp_diary_pc_area #diary_view ul li.mod span.nessesary_info > img { margin-left:5px; margin-right:5px; }
+		#dp_diary_pc_area #diary_view ul li.mod div.mod_func { text-align:center; padding:32px; }
+
+		#dp_diary_pc_area #diary_view ul li.del { display:none; }
+		#dp_diary_pc_area #diary_view ul li.del div.del_func { text-align:center; padding:32px; }
+
+		#dp_diary_pc_area #diary_view ul li.reg { display:none; }
+		#dp_diary_pc_area #diary_view ul li.reg #dp_diary_pc_write_agree_div { border:1px solid #DADADA; overflow:hidden; margin-bottom:20px; }
+
+/*		#dp_diary_pc_area #diary_view ul li.reg #dp_diary_pc_write_agree_div div:nth-child(2) { float:left; width:450px; margin:25px 0px 25px 30px; } */
+/*		#dp_diary_pc_area #diary_view ul li.reg #dp_diary_pc_write_agree_div div:nth-child(3) { float:right; width:450px; margin:25px 30px 25px 0px; } */
+/*		#dp_diary_pc_area #diary_view ul li.reg #dp_diary_pc_write_agree_div div:nth-child(4) { float:left; width:450px; margin:0px 0px 25px 30px; } */
+/*		#dp_diary_pc_area #diary_view ul li.reg #dp_diary_pc_write_agree_div div:nth-child(5) { float:right; width:450px; margin:0px 30px 25px 0px; } */
+
+		#dp_diary_pc_area #diary_view ul li.reg #dp_diary_pc_write_agree_div div.agree_title { height:70px; line-height:70px; color:#000; font-size:15px; font-weight:bold; text-align:center; background:#F9F9F9; }
+		#dp_diary_pc_area #diary_view ul li.reg #dp_diary_pc_write_agree_div span.agree_part_title { display:block; width:450px; height:30px; color:#000; font-size:14px; font-weight:bold; }
+		#dp_diary_pc_area #diary_view ul li.reg #dp_diary_pc_write_agree_div textarea.agree_part_content { padding:20px 30px 20px 30px; width:390px; height:110px; line-height:1.5; border:0px; background:#F9F9F9; color:#333; font-size:12px; }
+		#dp_diary_pc_area #diary_view ul li.reg #dp_diary_pc_write_agree_div div.agree_check { clear:both; height:70px; line-height:70px; color:#F90E0B; font-size:15px; font-weight:bold; text-align:center; background:#F9F9F9; }
+		#dp_diary_pc_area #diary_view ul li.reg div.reg_form span.nessesary_info { display:block; margin-bottom:15px; color:#999; vertical-align:middle; }
+/*		#dp_diary_pc_area #diary_view ul li.reg div.reg_form span.nessesary_info > img:nth-child(1) { margin-left:5px; margin-right:5px; } */
+		#dp_diary_pc_area #diary_view ul li.reg div.reg_form span.nessesary_info > img { margin-left:5px; margin-right:5px; } 
+		#dp_diary_pc_area #diary_view ul li.reg div.reg_func { text-align:center; padding:32px; }
+
+		#dp_diary_pc_area #diary_view ul li div.no_content { border:1px solid #DADADA; background:#F9F9F9; padding:60px; text-align:center; color:#000000; font-size:14px; font-weight:bold; }
+		#dp_diary_pc_area #diary_view ul li div.no_content span.reg{ color:#289CCB; }
+		#dp_diary_pc_area #diary_view ul li div.no_content > button { margin-top:30px; }
+
+		#dp_diary_pc_area #diary_view div.bottom_buttons { margin:28px 0px 40px 0px; text-align:right; }
+		#dp_diary_pc_area #diary_view div.bottom_buttons span.left { float:left; }

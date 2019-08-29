@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.innerfade.js"></script>
+<style type="text/css">
+   ul{list-style: none;}
+   li{float:left;}
+   ul img{width:500px; height:500px;}
+</style>
+</head>
+<body>
+<h1>교수검색</h1>
+<form action="professorSearch" method="post">
+<fieldset>
+<legend>교수 검색</legend>
+<ul>
+<li>
+    <input type="text" name="irum" required="required" placeholder="이름 입력">
+</li>
+<li>
+    <input type="image" src="img/btn_search.png">
+</li>
+</ul>
+</fieldset>
+</form>
+<ul id="portfolio">
+	<li>
+		        <a href="index.jsp">
+			<img src="img/winter/winter1.jpg" title="주현컴퓨터학원학사관리" /></a>
+	</li>
+	<li>
+	        <a href="index.jsp">
+			<img src="img/winter/winter2.jpg" title="주현컴퓨터학원학사관리" /></a>
+	</li>
+	<li>
+	        <a href="index.jsp">
+			<img src="img/winter/winter3.jpg"  title="주현컴퓨터학원학사관리" /></a>
+	</li>
+	<li>
+	        <a href="index.jsp">
+			<img src="img/winter/winter4.jpg" title="주현컴퓨터학원학사관리" /></a>
+	</li>
+	
+</ul>
+<script>
+$('ul#portfolio')
+    .innerfade({
+	speed: 1000,
+	timeout: 5000,
+	type: 'sequence',
+	containerheight: '220px'
+					});
+</script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src='js/jquery-1.8.3.min.js'></script>
+<script src='js/jquery.elevatezoom.js'></script>
+<style>
+  li{list-style: none;}
+  .irum2{width:169px;}
+</style>
+</head>
+<body>
+<h1>학생등록 화면</h1>
+<form action="student" method="post">
+     <fieldset>
+         <legend>학생등록 화면</legend>
+         <ul>
+            <li>
+                <label for="나이">나이</label>
+                <input type="number" max="100" min="1" name="age" required="required"  >
+            </li>
+            <li>
+                <label for="이름">이름</label>
+                <input type="text" size="50" name="irum" placeholder="이름입력"  class="irum2">
+            </li>
+            <li>
+                <label for="학번">학번</label>
+                <input type="text" name="hakbun" placeholder="학번입력">
+            </li>
+            <li>
+              <input type="image" src="img/submit.jpg">
+            </li>
+         </ul>
+     </fieldset>
+</form>
+<h1><a href="index.jsp"><img src="img/juhun.png"></a></h1>
+<img id="zoom_01" src='img/small/on_s.jpg' data-zoom-image="img/large/on.jpg"/>
+<img id="zoom_02" src='img/small/skyung.jpg' data-zoom-image="img/large/kyung.jpg"/>
+<img id="zoom_03" src='img/small/skr.jpg' data-zoom-image="img/large/kr.jpg"/>
+<script>
+    $('#zoom_01').elevateZoom({
+    zoomType: "inner",
+    cursor: "crosshair",
+    zoomWindowFadeIn: 500,
+    zoomWindowFadeOut: 750
+   }); 
+</script>
+<script>
+    $('#zoom_02').elevateZoom({
+    	zoomType	: "lens", 
+    	lensShape : "round", 
+    	lensSize : 200  
+   }); 
+</script>
+<script>
+    $('#zoom_03').elevateZoom({
+    	scrollZoom : true
+   }); 
+</script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+body{
+   background: #fff;
+   font-family: Arial;
+    height: 2000px;
+}
+ul#menu{
+    position: fixed;
+    top:20px;
+    left: 0px;
+    z-index: 9999;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+ul#menu li {
+    width: 100px;
+    margin-bottom: 30px;
+}
+ul#menu li a{
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 90px;
+    padding: 10px 0 10px 10px;
+    -webkit-border-bottom-right-radius:20px;
+    -webkit-border-top-right-radius:20px;
+    margin-left: -1px;
+    opacity: 0.6;
+}
+ul#menu .juhun1 a{
+    background: #DD2B2F;}
+ul#menu .juhun2 a{
+    background: #FF8102;}
+ul#menu .juhun3 a{
+    background: #FFCC00;}
+ul#menu .juhun4 a{
+    background: #00CC99;}
+ul#menu .juhun5 a{
+    background: #3399CC;}
+ul#menu .juhun6 a{
+    background: #9900CC;}
+ul#menu .juhun7 a{
+    background: #CC99FF;}
+ul#menu .juhun8 a{
+    background: #000000;}
+
+

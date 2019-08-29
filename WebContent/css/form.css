@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+/* PC 모드 폼양식 CSS */
+
+#dp_form_pc_area { position:relative; margin:0px; padding:0px; width:1000px; overflow:hidden; }
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+		#dp_form_pc_list_top {}
+				#dp_form_pc_list_top_search { position:relative; height:30px; line-height:30px; vertical-align:30px; background:URL('../img/bar_form.png') right center no-repeat; }
+				#dp_form_pc_list_top_search_none { position:relative; height:30px; line-height:30px; vertical-align:30px; }
+				#dp_form_pc_list_top_total_record { display:block; color:#9A9A9A; }
+				#dp_form_pc_list_top_total_record2 { color:#000; font-weight:bold; }
+
+		#dp_form_pc_list { }
+				#dp_form_pc_list ul li { overflow:hidden; clear:both; border:1px solid #DADADA; height:48px; overflow:hidden; margin-bottom:5px; }
+				#dp_form_pc_list ul li:last-child { margin-bottom:0px; }
+				#dp_form_pc_list ul li.no_data { overflow:hidden; clear:both; border:1px solid #DADADA; background:#F9F9F9; padding:60px; text-align:center; color:#000000; font-size:14px; font-weight:bold;  }
+				#dp_form_pc_list ul li span.no { float:left; overflow:hidden; display:inline-block; width:89px; height:48px; line-height:48px; text-align:center; font-family:verdana; font-size:16px; color:#3599CD; background:#F9F9F9; margin-right:30px; }
+				#dp_form_pc_list ul li span.nick { display:inline-block; font-size:16px; color:#000; height:48px; line-height:48px; vertical-align:middle; }
+				#dp_form_pc_list ul li span.reply { display:inline-block; height:48px; line-height:48px; }
+				#dp_form_pc_list ul li span.state { float:right; display:inline-block; width:140px; height:48px; line-height:48px; text-align:center; }
+				#dp_form_pc_list ul li span.state_1 { display:inline-block; margin-top:13px; width:100px; height:22px; line-height:22px; color:#353430; border-radius:2px; border:1px solid #AED0DC; background:#C0E7F6; }
+				#dp_form_pc_list ul li span.state_2 { display:inline-block; margin-top:13px; width:100px; height:22px; line-height:22px; color:#353430; border-radius:2px; border:1px solid #E7BFB3; background:#FFD5C5; }
+				#dp_form_pc_list ul li span.state_3 { display:inline-block; margin-top:13px; width:100px; height:22px; line-height:22px; color:#353430; border-radius:2px; border:1px solid #BCB9CC; background:#D0CDE2; }
+				#dp_form_pc_list ul li span.state_4 { display:inline-block; margin-top:13px; width:100px; height:22px; line-height:22px; color:#353430; border-radius:2px; border:1px solid #D4D8BD; background:#EBF0D2; }
+				#dp_form_pc_list ul li span.date { float:right; display:inline-block; width:100px; font-family:verdana; height:48px; line-height:48px; font-size:11px; color:#666; text-align:center; }
+				#dp_form_pc_list ul li span.admin_msg { color:#666; font-weight:normal; }
+				#dp_form_pc_list ul li input[type=checkbox] { vertical-align:middle; }
+
+		#dp_form_pc_list_bottom { clear:both; position:relative; overflow:hidden; }
+				#dp_form_pc_list_bottom_paging { margin-top:30px; text-align:center; }
+				#dp_form_pc_list_bottom_all_check { float:left; margin-top:20px; }
+				#dp_form_pc_list_bottom_write { float:right; margin-top:20px; }
+
+		#dp_form_pc_list_bottom_search_form { clear:both; margin-top:25px; border:1px solid #DADADA; background:#F9F9F9; padding:20px 30px 20px 30px; text-align:center; overflow:hidden; }
+				#dp_form_pc_list_bottom_search_keyword { float:left; padding-left:20px; color:#999; border-top:1px solid #DADADA; border-bottom:1px solid #DADADA; border-left:1px solid #DADADA; border-right:0px; width:878px; height:28px; line-height:28px; font-weight:normal; font-style:normal; font-size:14px; vertical-align: baseline; }
+				#dp_form_pc_list_bottom_search_submit { float:left; border:0px; width:39px; height:30px; background:URL('../img/but_search1.jpg'); }
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+		#dp_form_pc_write {  }
+				#dp_form_pc_write span.nessesary_info { display:block; margin-bottom:15px; color:#999; vertical-align:middle; }
+/*				#dp_form_pc_write span.nessesary_info > img:nth-child(1) { margin-left:5px; margin-right:5px; } */
+				#dp_form_pc_write span.nessesary_info > img { margin-left:5px; margin-right:5px; }
+				#dp_form_pc_write span.calendar_area { position:relative; display:inline-block; margin:0px; padding:0px; width:0px; height:0px; vertical-align:top; }
+				#dp_form_pc_write p.explanation { color:#999; font-size:12px; }
+				#dp_form_pc_write input.css_tel { float:left; ime-mode:disabled; width:148px; }
+				#dp_form_pc_write input.addr { margin-top:4px; }
+				#dp_form_pc_write button.calendar_open { vertical-align:middle; background:URL('../img/icon_change_date.png'); border:0px; width:36px; height:36px; cursor:pointer; }
+				#dp_form_pc_write button.calendar_reset { vertical-align:middle; background:URL('../img/icon_change_x.png'); border:0px; width:36px; height:36px; cursor:pointer; }
+				#dp_form_pc_write div.bottom_area { padding:30px; text-align:center; } 
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+		#dp_form_pc_mod {  }
+				#dp_form_pc_mod span.nessesary_info { display:block; margin-bottom:15px; color:#999; vertical-align:middle; }
+/*				#dp_form_pc_mod span.nessesary_info > img:nth-child(1) { margin-left:5px; margin-right:5px; } */
+				#dp_form_pc_mod span.nessesary_info > img { margin-left:5px; margin-right:5px; }
+				#dp_form_pc_mod span.calendar_area { position:relative; display:inline-block; margin:0px; padding:0px; width:0px; height:0px; vertical-align:top; }
+				#dp_form_pc_mod p.explanation { color:#999; font-size:12px; }
+				#dp_form_pc_mod p.file_del_comment { margin-bottom:5px; }
+				#dp_form_pc_mod input.css_tel { float:left; ime-mode:disabled; width:148px; }
+				#dp_form_pc_mod input.addr { margin-top:4px; }
+				#dp_form_pc_mod button.calendar_open { vertical-align:middle; background:URL('../img/icon_change_date.png'); border:0px; width:36px; height:36px; cursor:pointer; }
+				#dp_form_pc_mod button.calendar_reset { vertical-align:middle; background:URL('../img/icon_change_x.png'); border:0px; width:36px; height:36px; cursor:pointer; }
+				#dp_form_pc_mod div.bottom_area { text-align:center; padding:50px; }
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+		#dp_form_pc_view {  }
+				#dp_form_pc_view_no_member_pwd { border:1px solid #DADADA; background:#F9F9F9; padding:60px; text-align:center; color:#000000; font-size:14px; font-weight:bold; }
+				#dp_form_pc_view_no_member_pwd input[type=password]{ vertical-align:middle; padding-left:20px; font-size:14px; width:200px; height:34px; line-height:34px; border:1px solid #DADADA; background:#FDFDFD; color:#279DCF; font-weight:bold; }
+				#dp_form_pc_view_no_member_pwd input[type=password]:focus { background:#FFF; border:1px solid #3599CB; }
+				#dp_form_pc_view_no_member_pwd input[type=password]:blur { background:#FDFDFD; border:1px solid #DADADA; }
+				#dp_form_pc_view_no_member_pwd_bottom { margin-top:30px; text-align:right; }
+				#dp_form_pc_view_admin_func { margin-top:30px; }
+				#dp_form_pc_view_admin_func span.admin_mode_title { display:block; padding-left:30px; width:968px; height:42px; line-height:42px; color:#FA580D; border:1px solid #DDD; font-size:14px; font-weight:bold; background:URL('../img/bg01.jpg') repeat-x; }
+				#dp_form_pc_view_admin_func div.admin_mode_content { padding:20px; background:#F9F9F9; border-left:1px solid #DDD; border-right:1px solid #DDD; border-bottom:1px solid #DDD; border-top:0px; }
+				#dp_form_pc_view_table2 { width:100%; }
+				#dp_form_pc_view_table2 th { padding:10px; width:60px; color:#000; text-align:center; font-weight:bold; }
+				#dp_form_pc_view_table2 th.state { color:#FA580D; }
+				#dp_form_pc_view_table2 td { padding:10px; }
+				#dp_form_pc_view_table2 td.func { width:100px; padding:10px; text-align:center; }
+				#dp_form_pc_view_table2 td p { margin-bottom:5px; }
+				#dp_form_pc_view_table2 select { border:1px solid #DADADA; font-size:14px; padding:7px; margin-right:10px; }
+				#dp_form_pc_view_table2 select:focus { border:1px solid #3599CB; }
+				#dp_form_pc_view_table2 textarea { padding:20px; font-size:14px; line-height:1.5; width:690px; height:40px; border:1px solid #DADADA; background:#FDFDFD; color:#279DCF; }
+				#dp_form_pc_view_table2 textarea:focus { background:#FFF; border:1px solid #3599CB; height:300px; }
+				#dp_form_pc_view_bottom { margin-top:30px; text-align:right; }
+/*				#dp_form_pc_view_bottom button:nth-child(1) { float:left; } */
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+		#dp_form_pc_print {  }
+				#dp_form_pc_print_table { width:100%; }
+				#dp_form_pc_print_table th { width:120px; padding:10px; border-top:1px dotted #CCC; border-right:1px dotted #CCC; background:#F9F9F9; text-align:center; }
+				#dp_form_pc_print_table td { padding:10px; border-top:1px dotted #CCC; }
+				#dp_form_pc_print_table td.point { background:#FEE6DA; }
+				#dp_form_pc_print_table tr:last-child { border-bottom:1px dotted #CCC; }
+				#dp_form_pc_print_table select.default_nor { padding:3px; border:1px solid #DDD; background:#F2F2F2; }
+				#dp_form_pc_print_table textarea.default_nor { width:100%; height:80px; line-height:1.5; border:1px solid #E5E5E5; background:#F2F2F2; vertical-align:middle; }
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+		#dp_form_pc_del {  }
+				#dp_form_pc_del_no_auth { padding:50px; border:1px solid #CCC; text-align:center; margin-bottom:20px; }
+				#dp_form_pc_del_buttom { margin:20px 0px 20px 0px; border-top:1px solid #CCC; padding-top:20px; text-align:right; }
+				#dp_form_pc_del #dp_form_pc_del_no_auth input.comment_input_pwd { border:1px solid #E5E5E5; height:25px; line-height:25px; padding-left:70px; background:#FFF URL('../img/input_text_pwd.gif') left center no-repeat; }

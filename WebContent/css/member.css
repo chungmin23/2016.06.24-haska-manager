@@ -1,0 +1,198 @@
+@charset "utf-8";
+
+/* PC 모드 회원 CSS */
+
+	#membership_visual { height:60px; background:#C0E7F6; }
+		#membership_visual > h2{ width:1000px; height:60px; margin:0 auto; }
+
+	#member_area { margin-top:50px; }
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+		/* Menu Bar */
+			/* #member_area #member_menu_bar */
+				#member_menu_bar { height:41px; background:URL('../img/membership_menu_bg.png') left bottom; margin-bottom:50px;  }
+				#member_menu_bar li { float:left; height:39px; line-height:39px; width:162px; text-align:center; overflow:hidden; margin-right:2px; }
+				#member_menu_bar li span { color:#666; font-size:14px; }
+				#member_menu_bar li.normal { border-top:1px solid #DADADA; border-left:1px solid #DADADA; border-right:1px solid #DADADA; background:#F9F9F9 ; }
+				#member_menu_bar li.choice { height:40px; line-height:40px; border-top:1px solid #A0A0A0; border-left:1px solid #A0A0A0; border-right:1px solid #A0A0A0; background:#FFF; }
+				#member_menu_bar li.choice span { color:#000; font-weight:bold; }
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+		/* 아이디 비번 찾기 */
+			/* #member_area #member_content_area #member_find_form */
+				#member_find_form { position:relative; height:158px; background:#F9F9F9; border:1px solid #DADADA; }
+				#member_find_form input { position:absolute; left:49px; padding-left:70px; width:228px; height:34px; line-height:34px; border:1px solid #DADADA; font-size:14px; }
+				#member_find_form input.css_name { top:41px; background:URL('../img/input_bg_name.jpg') no-repeat #FFF; }
+				#member_find_form input.css_name:focus { border:1px solid #38A4D2; }
+				#member_find_form input.css_email { top:81px; background:URL('../img/input_bg_email.jpg') no-repeat #FFF; ime-mode:disabled; }
+				#member_find_form input.css_email:focus { border:1px solid #38A4D2; }
+/*				#member_find_form button:nth-child(6) { position:absolute; left:359px; top:41px; } */
+/*				#member_find_form button:nth-child(7) { position:absolute; left:559px; top:41px; } */
+/*				#member_find_form button:nth-child(8) { position:absolute; left:759px; top:41px; } */
+				#member_find_form #but_001 { position:absolute; left:359px; top:41px; }
+				#member_find_form #but_002 { position:absolute; left:559px; top:41px; }
+				#member_find_form #but_003 { position:absolute; left:759px; top:41px; }
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+		/* 이용약관, 개인정보취급방침 */
+			/* #member_area #member_content_area #member_clause_n_private */
+				#member_clause_n_private { font-size:14px; line-height:24px; color:#333; text-align:justify; }
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+		/* 로그인 */
+			/* #member_area #member_content_area #member_login */
+				#member_login { position:relative; height:158px; background:#F9F9F9; border:1px solid #DADADA; }
+				#member_login input { position:absolute; left:294px; padding-left:80px; width:218px; height:34px; line-height:34px; border:1px solid #DADADA; font-size:14px; }
+				#member_login input.css_id { top:41px; background:URL('../img/input_bg_id2.jpg') no-repeat #FFF; ime-mode:disabled; }
+				#member_login input.css_id:focus { border:1px solid #38A4D2; }
+				#member_login input.css_id:blur { border:1px solid #DADADA; }
+				#member_login input.css_pwd{ top:81px; background:URL('../img/input_bg_pwd2.jpg') no-repeat #FFF; }
+				#member_login input.css_pwd:focus { border:1px solid #38A4D2; }
+				#member_login input.css_pwd:blur { border:1px solid #DADADA; }
+
+/*				#member_login button:nth-child(6) { position:absolute; left:604px; top:41px; } */
+				#member_login button { position:absolute; left:604px; top:41px; }
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+		/* 가입 */
+			/* #member_area #member_content_area #member_join_form */
+				#member_join_form { display:none; }
+				#member_join_form > span:first-child { display:block; margin-bottom:15px; color:#999; vertical-align:middle; }
+				#member_join_form > span > img:first-child{ margin-left:5px; margin-right:5px; }
+				#member_join_form label.pointer { cursor:pointer; }
+
+				#member_join_form input.css_id { float:left; ime-mode:disabled; background:URL('../img/input_bg_id3.jpg') no-repeat #FDFDFD; }
+				#member_join_form input.css_pwd_re { background:URL('../img/input_bg_pwd3.jpg') no-repeat #FDFDFD; }
+				#member_join_form input.css_nick { float:left; background:URL('../img/input_bg_nick.jpg') no-repeat #FDFDFD; }
+				#member_join_form input.css_email { float:left; ime-mode:disabled; }
+				#member_join_form input.css_auth_code_email { float:left; background:URL('../img/input_bg_auth_no.jpg') no-repeat #FDFDFD; }
+				#member_join_form input.css_tel { float:left; ime-mode:disabled; width:148px; }
+				#member_join_form input.css_auth_code_mob { float:left; background:URL('../img/input_bg_auth_no.jpg') no-repeat #FDFDFD; }
+				#member_join_form input.addr { margin-top:4px; }
+
+/*				#member_join_form select:nth-child(3) { margin-right:15px; } */
+				#member_join_form #birthday3 { margin-right:15px; }
+
+				#member_join_form button.css_id_check { float:left; margin-left:10px; vertical-align:middle; border:0px; width:100px; height:36px; background:URL('../img/but_check_double.jpg'); }
+				#member_join_form button.css_nick_check { float:left; margin-left:10px; vertical-align:middle; border:0px; width:100px; height:36px; background:URL('../img/but_check_double.jpg'); }
+				#member_join_form button.css_email_check { float:left; margin-left:10px; vertical-align:middle; border:0px; width:100px; height:36px; background:URL('../img/but_check_double.jpg'); }
+				#member_join_form button.css_email_auth{ float:left; margin-left:10px; vertical-align:middle; border:0px; width:160px; height:36px; background:URL('../img/but_check_email_auth.jpg'); }
+				#member_join_form button.css_email_auth_check { float:left; margin-left:10px; vertical-align:middle; border:0px; width:160px; height:36px; background:URL('../img/but_check_authcode.jpg'); }
+				#member_join_form button.css_mob_check { float:left; margin-left:10px; vertical-align:middle; border:0px; width:100px; height:36px; background:URL('../img/but_check_double.jpg'); }
+				#member_join_form button.css_mob_auth { float:left; margin-left:10px; vertical-align:middle; border:0px; width:160px; height:36px; background:URL('../img/but_check_cp_auth.jpg'); }
+				#member_join_form button.css_mob_auth_check { float:left; margin-left:10px; vertical-align:middle; border:0px; width:160px; height:36px; background:URL('../img/but_check_authcode.jpg'); }
+
+				#member_join_form div.auth_area_email { clear:both; padding-top:4px; display:none; overflow:hidden; }
+				#member_join_form div.auth_area_sms { clear:both; padding-top:4px; display:none; overflow:hidden; }
+				#member_join_form div.bottom_button_area { text-align:center; margin-top:32px; }
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+		/* 정보수정 */
+			/* #member_area #member_content_area #member_mod_form */
+				#member_mod_form { }
+				#member_mod_form label.pointer { cursor:pointer; }
+				#member_mod_form p.info { margin-bottom:15px; color:#9A9A9A; vertical-align:middle; }
+				#member_mod_form span.bold_000 { font-weight:bold; color:#000; }
+				#member_mod_form input.css_change_pwd { margin-left:10px; }
+				#member_mod_form input.css_change_email { margin-left:10px; }
+				#member_mod_form input.css_pwd_new { float:left; width:248px; background:URL('../img/input_bg_pwd4.jpg') no-repeat #FDFDFD; }
+				#member_mod_form input.css_pwd_new_re { float:left; margin-left:10px; width:248px; background:URL('../img/input_bg_pwd5.jpg') no-repeat #FDFDFD; }
+				#member_mod_form input.css_email { float:left; ime-mode:disabled; background:URL('../img/input_bg_email2.jpg') no-repeat #FDFDFD; }
+				#member_mod_form input.css_email_auth { float:left; margin-left:10px; vertical-align:middle; border:0px; width:160px; height:36px; line-height:36px; background:URL('../img/but_check_email_auth.jpg'); }
+				#member_mod_form input.css_auth_code_email { float:left; background:URL('../img/input_bg_auth_no.jpg') no-repeat #FDFDFD; }
+				#member_mod_form input.css_tel { float:left; ime-mode:disabled; width:148px; }
+				#member_mod_form input.css_change_mob { margin-left:10px; }
+				#member_mod_form input.css_auth_code_mob { float:left; background:URL('../img/input_bg_auth_no.jpg') no-repeat #FDFDFD; }
+				#member_mod_form input.addr { margin-top:4px; }
+
+/*				#member_mod_form select:nth-child(3) { margin-right:15px; } */
+				#member_mod_form #birthday3 { margin-right:15px; }
+
+				#member_mod_form button.css_email_check { float:left; margin-left:10px; vertical-align:middle; border:0px; width:100px; height:36px; background:URL('../img/but_check_double.jpg'); }
+				#member_mod_form button.css_email_auth_check { float:left; margin-left:10px; vertical-align:middle; border:0px; width:160px; height:36px; background:URL('../img/but_check_authcode.jpg'); }
+				#member_mod_form button.css_mob_check { float:left; margin-left:10px; vertical-align:middle; border:0px; width:100px; height:36px; background:URL('../img/but_check_double.jpg'); }
+				#member_mod_form button.css_mob_auth { float:left; margin-left:10px; vertical-align:middle; border:0px; width:160px; height:36px; background:URL('../img/but_check_cp_auth.jpg'); }
+				#member_mod_form button.css_mob_auth_check { float:left; margin-left:10px; vertical-align:middle; border:0px; width:160px; height:36px; background:URL('../img/but_check_authcode.jpg'); }
+				#member_mod_form div.new_pwd_area { display:none; padding-top:4px; }
+				#member_mod_form div.new_email_area { clear:both; padding-top:4px; display:none; overflow:hidden; }
+				#member_mod_form div.auth_area_email { clear:both; padding-top:4px; display:none; overflow:hidden }
+				#member_mod_form div.new_mob_area { clear:both; padding-top:4px; display:none; overflow:hidden; }
+				#member_mod_form div.auth_area_sms { clear:both; padding-top:4px; display:none; overflow:hidden; }
+				#member_mod_form div.bottom_button_area { text-align:center; margin-top:32px; }
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+		/* 탈퇴 */
+			/* #member_area #member_content_area #member_out_form */
+				#member_out_form { }
+				#member_out_form p.info { margin-bottom:15px; color:#9A9A9A; vertical-align:middle; }
+				#member_out_form span.bold_000 { font-weight:bold; color:#000; }
+				#member_out_form input.css_pwd { background:URL('../img/input_bg_pwd6.jpg') no-repeat #FDFDFD; }
+				#member_out_form div.bottom_button_area { text-align:center; margin-top:32px; }
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+		/* MyPage */
+			/* #member_area #member_content_area #member_myreg */
+				#member_myreg {}
+				#member_myreg div.myreg_group{ margin-bottom:70px; }
+				#member_myreg div.myreg_group h5 { float:left; }
+				#member_myreg div.myreg_group span.more { float:right; }
+				#member_myreg div.myreg_group p { clear:both; color:#999; padding:10px; margin-top:50px; }
+				#member_myreg div.myreg_group p.board { background:URL("../img/mypage_title_bg.png") right center no-repeat; }
+				#member_myreg div.myreg_group p.comment { background:URL("../img/mypage_title_bg2.png") right center no-repeat; }
+				#member_myreg div.myreg_group p > span { color:#000; font-weight:bold; }
+				#member_myreg span.myreg_group_title { color:#000; font-size:24px; font-weight:bold; font-family:'나눔바른고딕','NanumBarunGothic','나눔고딕','NanumGothic', '맑은 고딕','malgun gothic','Nanum Gothic','dotum','돋움'; margin-left:10px; }
+				#member_myreg span.sort { color:#666; font-size:12px; }
+				#member_myreg span.subject { color:#000; }
+				#member_myreg span.subject2 { display:inline-block; width:720px; color:#000; }
+				#member_myreg span.subject3 { display:inline-block; width:820px; color:#000; }
+				#member_myreg span.reply1 { display:inline-block; width:60px; text-align:center; font-size:12px; color:#FB570F; font-weight:bold; vertical-align:top; }
+				#member_myreg span.reply2 { display:inline-block; width:60px; text-align:center; font-size:12px; color:#279EC9; font-weight:bold; vertical-align:top; }
+				#member_myreg span.date { float:right; font-size:12px; color:#999; }
+				#member_myreg span.date2 { display:inline-block; width:90px; text-align:center; font-size:12px; color:#999; vertical-align:top; }
+				#member_myreg span.state_1 { float:right; display:inline-block; width:100px; height:22px; line-height:22px; text-align:center; font-size:12px; color:#353430; background:URL('../img/form_state_bg1.png'); }
+				#member_myreg span.state_2 { float:right; display:inline-block; width:100px; height:22px; line-height:22px; text-align:center; font-size:12px; color:#353430; background:URL('../img/form_state_bg2.png'); }
+				#member_myreg span.state_3 { float:right; display:inline-block; width:100px; height:22px; line-height:22px; text-align:center; font-size:12px; color:#353430; background:URL('../img/form_state_bg3.png'); }
+				#member_myreg span.state_4 { float:right; display:inline-block; width:100px; height:22px; line-height:22px; text-align:center; font-size:12px; color:#353430; background:URL('../img/form_state_bg4.png'); }
+				#member_myreg span.hit { display:inline-block; width:50px; text-align:center; font-size:12px; color:#999; vertical-align:top; }
+				#member_myreg ul.myreg_group_list { border-top:1px solid #E6E6E6; clear:both; }
+				#member_myreg ul.myreg_group_list li { border-bottom:1px solid #E6E6E6; padding:17px 10px 17px 10px; font-size:14px; }
+
